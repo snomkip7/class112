@@ -5,7 +5,7 @@ Webcam.set({
     png_quality:90,
 
     constraints:{
-        facingMode: "environment"
+        facingMode: {exact:'environment'}
     }
 });
 camera = document.getElementById("camera");
